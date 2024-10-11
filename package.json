@@ -1,0 +1,19 @@
+{
+  "name": "send-free-x-twitter-followers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7"
+  },
+  "config": {
+    "API_URL": "https://heysmmreseller.com/api/v2",
+    "API_KEY": "07982ffb7faad598e957c9cbec559037"
+  }
+}
