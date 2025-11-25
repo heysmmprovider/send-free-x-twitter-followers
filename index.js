@@ -48,7 +48,7 @@ const addOrder = async () => {
         const response = await axios.post(packageConfig.API_URL, {
             key: packageConfig.API_KEY,
             action: 'add',
-            service: process.env.SERVICE || 442,
+            service: process.env.SERVICE || 1311,
             link: `https://www.x.com/${twitterUsername}/`, // https://api.twitter.com/1.1/friendships/create.json (POST)
             quantity: 10
         });
